@@ -1,0 +1,289 @@
+body{
+    min-width: 900px;
+    margin:0px;
+}
+
+/* Header Image */
+
+#body-header{
+    height: 67vh;
+    background-image: url(img/header-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    background: radial-gradient(square, rgba(86, 106, 199, 0.938), rgb(51, 5, 88))
+}
+
+/* Horizontal List */
+
+.horizontal-list{
+    list-style: none;
+    margin-top: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.horizontal-list li a{
+    text-decoration: none;
+    color:rgb(92, 15, 15);
+    font-weight: 600;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(117, 71, 71);
+    border-style: none;
+    border-radius: 10px;
+    border-width: 1px;
+}
+.horizontal-list li a:hover{
+    background-color: rgb(117, 71, 71);
+    border-style: none;
+    border-radius: 10px;
+    border-width: 1px;
+    color: rgb(137, 180, 57);
+    transition: color 0.5s;
+}
+
+.text-center-align{
+    text-align: center;
+}
+
+/* Social Links */
+
+#social-container{
+    /* background-color: red; */
+    margin-top: 100px;
+    color: rgb(70, 32, 32);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    opacity: 1;
+}
+
+#social-icons li{
+    display: inline-block;
+}
+
+#social-icons li a{
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+#social-icons li a:hover{
+    color:rgb(42, 177, 85);
+    /* color: black; */
+    transition: color 0.5s;
+    box-shadow: 0px 0px 6px 2px rgba(62, 167, 134, 0.2) ;
+    border-radius: 80%;
+}
+
+/* Each Section */
+
+.section-heading-style:nth-child(2n){
+    background-color: rgb(146 233 185 / 31%);
+}
+.section-heading-style #header{
+    text-align: center;
+    padding-top: 60px;
+}
+.section-heading-style span{
+    font-size: 35px;
+    font-weight:bolder;
+    color: rgb(117, 71, 71);
+    font-family: 'Courier New', Courier, monospace;
+}
+.section-heading-style i{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(117, 71, 71);
+}
+
+/* About Section */
+
+#about {
+    height: 70vh;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align:justify;
+    position: relative;
+}
+
+#about #profile-picture{
+    background-image: url(img/himanshu.jpg);
+    background-size:cover;
+    
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    padding: 1px;
+    margin-top: -130px;
+
+    border-radius: 50%;
+
+    border-color: rgb(208, 194, 194);
+    box-shadow: 0px 0px 38px 21px rgb(78 137 147 / 52%);
+    
+}
+
+#about #about-word{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 500;
+}
+#about #about-word #highlights{
+    font-weight: 600;
+    color: rgb(12, 150, 74);
+}
+
+
+/* Skills */
+
+#skills{
+    height: 80vh;
+}
+
+#skills .skill{
+    margin: auto;
+    margin-top: 30px;
+    height: 35px;
+    width: 200px;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    background-color: red;
+}
+
+/* Work Experience */
+
+#work-experience{
+    height: 80vh;
+    text-align: center;
+}
+
+#timelines{
+    height: 80%;
+    width: 63%;
+    position: relative;
+    left: 17%;
+    border: red solid 2px;
+}
+
+.timeline{
+    /* display: flex; */
+    margin: 15px 0 40px 11px;
+    height: 40%;
+    border: red solid 2px;
+    width: 40%;
+    position: relative;
+}
+
+.timeline:nth-child(2n){
+    left: 55.5%;
+}
+
+.timeline-divider{
+    width: 0;
+    height: 65%;
+    border: 1px rgb(119, 88, 88) dashed;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.timeline-traveller{
+    position: sticky; 
+    top: 10%;
+    transform: rotate(90deg);
+}
+
+
+/* Education */
+
+#education{
+    height: 60vh;
+}
+
+/* Portfolio */
+
+#portfolio{
+    height: 60vh;
+}
+
+/* Contact Section */
+
+#contact{
+    overflow: auto;
+    display: block;
+    height: 90vh; 
+    background: linear-gradient(90deg,rgba(28, 5, 5, 0.761), rgba(130, 85, 85, 0.761));
+}
+
+
+#message-form{
+    width: 49%;
+    margin-bottom: 60px;
+    display: inline-block;
+    /* background-color: red; */
+}
+
+#contact #message-form div input, textarea{
+    font-size: 15px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-color: rgb(52, 42, 11);
+    background-color: transparent;
+    width: 99%;
+}
+
+
+
+#contact #message-form div{
+    padding: 45px 0px 0px 180px;  
+}
+#contact #message-form #send-msg-btn button{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: rgb(7, 7, 7);
+    border-width: 2px;
+    padding: 10px;
+    margin-left: 38%;
+}
+#contact #message-form #send-msg-btn button:hover{
+    cursor: pointer;
+    color: white;
+    border-color: rgb(137, 180, 57);
+    background-color: rgb(137, 180, 57);
+    transition: 200ms;
+}
+
+#contact #contact-icon{
+    padding: 45px;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(52, 42, 11);
+    text-align: center;
+}
+
+#contact #social-icons li a{
+    margin: 15px;
+}
+#contact #social-icons{
+    text-align: center;
+}
+
+
+/* address */
+
+#contact #address{
+    margin: 20px 0px 0px 80px;
+    width: 40%;
+    display: inline-block;
+    /* background-color: yellow; */
+    vertical-align: top;
+}
+#contact #address div{
+    margin-top: 10px;;
+}
