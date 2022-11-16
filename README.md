@@ -1,5 +1,5 @@
 # myResume
-
+url: https://dashimanshusekhar.github.io/myResume/
 #Preview
 
 ![image](https://user-images.githubusercontent.com/61196311/201717601-c08f6921-035f-49e3-9833-1eac6832e45b.png)
